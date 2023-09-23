@@ -20,15 +20,23 @@ import {
   tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  Blogger,
+  Kali,
   threejs,
+  hackai,
+  webdev,
+  game,
+  ubreak
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "blog",
+    title: "Blog",
   },
   {
     id: "work",
@@ -42,19 +50,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "DevOps/Automation",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Tier 3 Tech Support",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Content/Blog Writer",
     icon: creator,
   },
 ];
@@ -116,102 +124,157 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Application Engineer",
+    company_name: "Embedded Works",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Santa Clara, CA",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "IoT & telematics downstream data integration for real-time tracking and other use cases.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Data packet analysis for various communication protocols, such as Wi-Fi, Bluetooth Low Energy (BLE), CAN, and other relevant standards.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Technical Support Engineer[DevOps]",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Fremont, CA",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Tier 3 onsite and remote IT support",
+      // "Python Automation",
+      // "Conducted site visits and IT rack refreshments.",
+      // "Created help sheets, and technical articles for systems at Tesla.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Resident Advisor",
+    company_name: "CSUS",
     icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    iconBg: "#383E56",
+    date: "Sacramento, CA",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      // "Enforced College Living policies, promoting academic excellence, and safe space for students.",
+      // "Created, marketed, and led student centered hall programs for social, education, and diversity goals.",
+    
+    ],
+  },
+  {
+    title: "Apple Repair Technician",
+    company_name: "Experimax",
+    icon: shopify,
+    iconBg: "#E6DEDD",
+    date: "San Jose, CA",
+    points: [
+      // "Customer support",
+      // "Diagnosed and resolved hardware software issues across range of devices including smartphones, tablets, wearables, computers and more.",
+    ],
+  },
+  {
+    title: "Electronic Repair Technician",
+    company_name: "UbreakiFix",
+    icon: ubreak,
+    iconBg: "#E6DEDD",
+    date: "San Jose, CA",
+    points: [
+      // "Customer support",
+      // "Repair, install, and inspect electronic systems: TV, Phones, Laptops, Printers, and more."
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+ 
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Website Development",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Springboot",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: webdev,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "AI-based Network IDS",
+    description:
+    "",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CNN & DNN",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hackai,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Ethical Hacking: WiFi & Web App",
+    description:
+    "",
+    tags: [
+      {
+        name: "Kali Linux",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nmap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wifite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Burpsuit",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Kali,
+    source_code_link: "https://github.com/",
+  },
+  
+  {
+    name: "Vendor Management Web App",
+    description:
+      "",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIs",
         color: "pink-text-gradient",
       },
     ],
@@ -219,47 +282,47 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Java Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
-        name: "react",
+        name: "OOP",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Data Structures",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Algorithms",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: game,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "BLOG",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
-        name: "nextjs",
+        name: "Networking",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Software Engineering",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Machine Learning",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: Blogger,
+    source_code_link: "https://cyberwbo.blogspot.com/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

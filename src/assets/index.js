@@ -25,10 +25,17 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import ubreak from "./company/ubreak.png";
 
 import carrent from "./carrent.png";
+import hackai from "./hackai.jpg";
+import Blogger from "./Blogger.jpg";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Kali from "./Kali.jpg";
+import webdev from "./webdev.jpg";
+import game from "./game.jpg";
+
+
 
 export {
   logo,
@@ -58,5 +65,10 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  Kali,
+  Blogger,
+  hackai,
+  webdev,
+  game,
+  ubreak,
 };
