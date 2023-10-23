@@ -53,8 +53,7 @@ const About = () => {
           Particularly interested in the areas of DevOps, Web Dev, Cyber Security, and Machine Learning.
 
           I'm a skilled software developer with experience in Java, Python and
-          JavaScript. Frameworks such as React, Django, and
-          Spring Boot. 
+          JavaScript. 
           
           
       </motion.p>
