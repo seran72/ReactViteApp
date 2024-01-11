@@ -50,7 +50,7 @@ const About = () => {
       >
 
           Im deeply passionate about computing and always seeking to enhance my technical skills. 
-          Particularly interested in the areas of DevOps, Web Dev, Cyber Security, and Machine Learning.
+          Particularly interested in the areas of DevOps, IT/Cyber Security, and Software Engineering.
 
           I'm a skilled software developer with experience in Java, Python and
           JavaScript. 
