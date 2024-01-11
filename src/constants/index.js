@@ -8,12 +8,9 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -50,15 +47,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Development",
+    title: "IT/Security",
     icon: web,
   },
   {
-    title: "DevOps/Automation",
+    title: "DevOps-Automation",
     icon: mobile,
   },
   {
-    title: "Tier 3 Tech Support",
+    title: "Technical Support",
     icon: backend,
   },
   {
@@ -88,10 +85,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -101,20 +95,12 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -130,12 +116,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Santa Clara, CA",
     points: [
-      // "Developing and maintaining web applications using React.js and other related technologies.",
-      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "IoT & telematics downstream data integration for real-time tracking and other use cases.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
-      // "Data packet analysis for various communication protocols, such as Wi-Fi, Bluetooth Low Energy (BLE), CAN, and other relevant standards.",
-    ],
+      ],
   },
   {
     title: "Technical Support Engineer[DevOps]",
@@ -144,10 +125,6 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Fremont, CA",
     points: [
-      // "Tier 3 onsite and remote IT support",
-      // "Python Automation",
-      // "Conducted site visits and IT rack refreshments.",
-      // "Created help sheets, and technical articles for systems at Tesla.",
     ],
   },
   {
@@ -157,9 +134,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sacramento, CA",
     points: [
-      // "Enforced College Living policies, promoting academic excellence, and safe space for students.",
-      // "Created, marketed, and led student centered hall programs for social, education, and diversity goals.",
-    
     ],
   },
   {
@@ -169,8 +143,6 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "San Jose, CA",
     points: [
-      // "Customer support",
-      // "Diagnosed and resolved hardware software issues across range of devices including smartphones, tablets, wearables, computers and more.",
     ],
   },
   {
@@ -180,8 +152,6 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "San Jose, CA",
     points: [
-      // "Customer support",
-      // "Repair, install, and inspect electronic systems: TV, Phones, Laptops, Printers, and more."
     ],
   },
 ];
